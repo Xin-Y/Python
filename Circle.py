@@ -43,7 +43,7 @@ def GenerateSet(MaxCircle):
             if not IsOverlap(subcircle,Circles):
                 break
             iTry+=1
-            print 'iTry=',iTry
+            print ('iTry=',iTry)
         if iTry<MaxTry:
             Circles.append(subcircle)
         else:
