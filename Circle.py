@@ -47,13 +47,13 @@ def GenerateSet(MaxCircle):
         if iTry<MaxTry:
             Circles.append(subcircle)
         else:
-            print 'In the process of ',nCircle+1,' circle, generation failed!'
+            print ('In the process of ',nCircle+1,' circle, generation failed!')
             sys.exit()
 
 GenerateSet(50)
 
 for i in range(len(Circles)):
-    print '%3d-th circle: radius=%.5f, cx=%.5f, cy=%.5f\n'%(i+1,Circles[i][2],Circles[i][0],Circles[i][1])
+    print ('%3d-th circle: radius=%.5f, cx=%.5f, cy=%.5f\n'%(i+1,Circles[i][2],Circles[i][0],Circles[i][1]))
 
 ###################################
 ### Plot circle
