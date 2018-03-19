@@ -53,7 +53,7 @@ def GenerateSet(MaxCircle):
 GenerateSet(50)
 
 for i in range(len(Circles)):
-    print '%3d-th circle: radius=%.5f, cx=%.5f, cy=%.5f\n'%(i+1,Circles[i][2],Circles[i][0],Circles[i][0])
+    print '%3d-th circle: radius=%.5f, cx=%.5f, cy=%.5f\n'%(i+1,Circles[i][2],Circles[i][0],Circles[i][1])
 
 ###################################
 ### Plot circle
